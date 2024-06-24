@@ -1,0 +1,13 @@
+<!-- templates/customer_success.html -->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Added</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/styles.css' %}">
+</head>
+<body>
+    <h1>Customer Added Successfully</h1>
+    <p>New Customer: {{ customer.first_name }} {{ customer.last_name }}</p>
+</body>
+</html>
